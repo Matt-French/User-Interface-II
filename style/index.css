@@ -1,1 +1,42 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    border:1px solid black;
+}
+
+header{
+    background-color:#0a4958;
+    height:200px;
+    width:100%;
+}
+
+.name p{
+    padding:30px;
+    font-size:3.5rem;
+    font-family:'Ubuntu', sans-serif;
+    color:#01b6ad;
+}
+
+.navdiv{
+    display:flex;
+    padding-left:35px;
+}
+
+.navdiv a{
+    padding:10px;
+    height:20px;
+    width:30px;
+    text-align:center;
+    align-content:flex-end;
+    font-family:'Ubuntu', sans-serif;
+    text-decoration:none;
+    color:#f6e7d2;
+    background-color:#01b6ad;
+    transition:1.5s;
+
+}
+
+.navdiv:hover a{
+    background-color:#f6e7d2;
+    color:#0a4958;
+}
