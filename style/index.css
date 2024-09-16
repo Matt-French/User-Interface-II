@@ -1,1 +1,83 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    border:1px solid black;
+
+}
+
+header{
+    background-color:#0a4958;
+    height:200px;
+    width:100%;
+}
+
+.name p{
+    padding:30px;
+    font-family:'Ubuntu', sans-serif;
+    font-size:3.5rem;
+    color:#01b6ad;
+    text-shadow:-3px -2px #f6e7d2;
+}
+
+.navdiv{
+    display:flex;
+    padding-left:35px;
+}
+
+.navdiv a{
+    padding:10px;
+    height:20px;
+    width:30px;
+    text-align:center;
+    align-content:flex-end;
+    font-family:'Ubuntu', sans-serif;
+    text-decoration:none;
+    color:#f6e7d2;
+    background-color:#01b6ad;
+    transition:1.5s;
+
+}
+
+.navdiv a:hover{
+    background-color:#f6e7d2;
+    color:#0a4958;
+}
+
+.midway{
+    height:400px;
+    display:flex;
+    padding:15px;
+}
+
+.pname{
+    font-size:3.5rem;
+    font-family:'Ubuntu', sans-serif;
+}
+
+.whoami button{
+    background-color:#0a4958;
+    color:#ffffff;
+    text-decoration:none;
+    padding:20px;
+    font-size:1.1rem;
+}
+
+footer{
+    position:absolute;
+    display:flex;
+    height:200px;
+    width:100%;
+    background-color:#f6e7d2;
+    color:#0a4958;
+    margin-top:auto;
+}
+
+footer img{
+    /* display:flex; */
+    align-self:center;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    height:80px;
+    width:auto;
+
+}
